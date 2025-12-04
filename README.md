@@ -529,18 +529,10 @@ const verify = await fetch("/api/auditors/verify", {
 
 ---
 
-## 📚 **Documentation**
-
-- [Circuit Documentation](./payroll_circuits/README.md)
-- [NEAR Contract API](./near/contracts/README.md)
-- [API Reference](./frontend/app/api/README.md)
-- [Deployment Guide](./DEPLOY.md)
-
----
 
 ## 🤝 **Contributing**
 
-We welcome contributions! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+We welcome contributions! ping @rythmern on TG!
 
 **Areas of Interest:**
 - Circuit optimization
@@ -552,7 +544,7 @@ We welcome contributions! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for gu
 
 ## 📄 **License**
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ---
 
@@ -583,8 +575,6 @@ Built with ❤️ by the **Civitas** team for the **Zypherpunk Hackathon**.
 **"Privacy is not about hiding something. It's about being in control of what you reveal."**
 
 **Built for a future where financial privacy is the default, not the exception.**
-
-[🌐 Website](https://civitas.xyz) • [📖 Docs](https://docs.civitas.xyz) • [🐦 Twitter](https://twitter.com/civitas_zk) • [💬 Discord](https://discord.gg/civitas)
 
 </div>
 
