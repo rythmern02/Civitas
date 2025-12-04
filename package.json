@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@chainsafe/webzjs-zcash-snap": "^0.2.7",
+    "@metamask/providers": "^22.1.1",
+    "@nillion/nuc": "^1.0.0",
+    "@types/snarkjs": "^0.7.9",
+    "circomlib": "^2.0.5",
+    "circomlib-ml": "^2.3.0",
+    "snarkjs": "^0.7.5"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "zkpassport-workload",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "snarkjs": "^0.7.5",
+    "circomlib": "^2.0.5",
+    "poseidon-lite": "^0.3.0",
+    "tweetnacl": "^1.0.3",
+    "bn.js": "^5.2.1",
+    "node-fetch": "^2.7.0"
+  }
+}
+

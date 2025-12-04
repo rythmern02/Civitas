@@ -1,0 +1,10 @@
+node_modules
+.env
+.env.local
+
+/frontend/.env.local
+
+/payroll_circuits/node_modules
+/orchestrator/node_modules
+
+/frontend/.next

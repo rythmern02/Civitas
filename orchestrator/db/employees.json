@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "employers": [],
+  "employees": [
+    {
+      "vouchers": [
+        {
+          "voucher_id": "voucher_f37fd49b-2381-4f78-bd21-dbad3bd80494",
+          "amount": 0,
+          "currency": "ZEC",
+          "run_id": "demo_run",
+          "status": "issued",
+          "memo": "Payroll allocation for employer_demo",
+          "issued_at": "2025-12-03T11:06:03.226Z"
+        }
+      ],
+      "role": "employer",
+      "created_at": "2025-12-03T11:06:03.226Z",
+      "updated_at": "2025-12-03T11:06:03.226Z",
+      "employee_id": "d76e9b03-1973-412a-a571-eeeeebe16476",
+      "username": "employer_demo",
+      "username_normalized": "employer_demo",
+      "password_hash": "$2a$10$0w1QapPJtlYQIene6/W4WegeVraq8qdbiKXjcYPRR44FBU2f3u2Jq",
+      "employee_tag": "b95e4f7409e67ac18237db53f98a2bfa96b862d4cb59b9d51c969a074597d8c",
+      "credential_nonce": "ac30863f8aed1973327c3c4392a4531735a448af5a84a85086783f45f6c1e57c",
+      "zkpass_credential": {
+        "ciphertext": "O2fj7m0zn1VwgqntzAYiA0JGm3l1MjmYov9k3SxL7pqgId+/2teSzwHag1Hy42w9GPIWTEi8tXONfiKckbDIVfhyy9o724lr6BoqnDycrmsNxqlTS0M5o2NjIniooBa9MvYsyt51P0UrbpnaX8s4JSohT1O7vLqvrBnV8XtCW0qWyO3uRQ4DPM+xFsD8TWSRidSEnZlZeb9eyaztzCgTQ9nSbfsAPVka8uYH0XWylcLalwuqb0fQvFoe6CFPRxRTOUwT1Bj6SYyuIop0R7OTffQTWg4TVUhBloE4rUx4RXxg2O/RKKJk3RIC9dGk",
+        "iv": "NuutFVB/t+gViF0i",
+        "signature": "M2I2N2UzZWU2ZDMzOWY1NTcwODJhOWVkY2MwNjIyMDM0MjQ2OWI3OTc1MzIzOTk4YTJmZjY0ZGQyYzRiZWU5YWEwMjFkZmJmZGFkNzkyY2YwMWRhODM1MWYyZTM2YzNkMThmMjE2NGM0OGJjYjU3MzhkN2UyMjljOTFiMGM4NTVmODcyY2JkYTNiZGI4OTZiZTgxYTJhOWMzYzljYWU2YjBkYzZhOTUzNGI0MzM5YTM2MzYzMjI3OGE4YTAxNmJkMzJmNjJjY2FkZTc1M2Y0NTJiNmU5OWRhNWZjYjM4MjUyYTIxNGY1M2JiYmNiYWFmYWMxOWQ1ZjE3YjQyNWI0YTk2YzhlZGVlNDUwZTAzM2NjZmIxMTZjMGZjNGQ2NDkxODlkNDg0OWQ5OTU5NzliZjVlYzlhY2VkY2MyODEzNDNkOWQyNmRmYjAwM2Q1OTFhZjJlNjA3ZDE3NWIyOTVjMmRhOTcwYmFhNmY0N2QwYmM1YTFlZTgyMTRmNDcxNDUzMzk0YzEzZDQxOGZhNDk4Y2FlMjI4YTc0NDdiMzkzN2RmNDEzNWEwZTEzNTU0ODQxOTY4MTM4YWQ0Yzc4NDU3YzYwZDhlZmQxMjhhMjY0ZGQxMjAyZjVkMWE0OmFjMzA4NjNmOGFlZDE5NzMzMjdjM2M0MzkyYTQ1MzE3MzVhNDQ4YWY1YTg0YTg1MDg2NzgzZjQ1ZjZjMWU1N2M="
+      },
+      "org_id": "demo_org",
+      "profile": {
+        "name": "Demo Employer",
+        "email": "employer@demo.civ",
+        "role": "employer"
+      }
+    },
+    {
+      "vouchers": [
+        {
+          "voucher_id": "voucher_3145a117-9e90-4e54-aa15-2f81c0f34211",
+          "amount": 1200,
+          "currency": "ZEC",
+          "run_id": "demo_run",
+          "status": "issued",
+          "memo": "Payroll allocation for employee_priya",
+          "issued_at": "2025-12-03T11:06:03.280Z"
+        }
+      ],
+      "role": "employee",
+      "created_at": "2025-12-03T11:06:03.280Z",
+      "updated_at": "2025-12-03T11:06:03.280Z",
+      "employee_id": "e66abb69-5559-4c47-a837-4e0d12164818",
+      "username": "employee_priya",
+      "username_normalized": "employee_priya",
+      "password_hash": "$2a$10$cOkdj9uuU5M9Mcv7JfHqpe6mc8TGRTL5xrqLdOtuBwwRSJCjVgn9G",
+      "employee_tag": "1296e095dceb4505e4180fad4b62cfa533c5275492df0a4bdc73fa60b5b6aca3",
+      "credential_nonce": "936224e570b13a6d5888e5a3ed64cde746fac0150ff0f6f78898f22ba9149c5e",
+      "zkpass_credential": {
+        "ciphertext": "Nq/y0+XW23AVB8MY4cpQOghL0fWQA41BeylQNCRaDjzb6v5KPwViUrjr9CarQ2oHMJEm6KJ4SRtfFS2XGQLznRXQiZrboMZykknxvkkbXX3B5ukxSOTZDd8ixQG4FqDol7S4jyo8ilSLcaH3va8oEg41P3dr/1wEM225hRA9Xc+10bY5iyky0jSXglWXjePTiVbT1G1+emPRrxHT/00Y9RmwrkPCD/zDrOP3DkcC3dZCmQQ5G0yuTgvLbJfWVULzzOjmNbUBA/ZbPMOHkwn/4Rpe45luCW8K/s24rTRW2Wz0Y2AnJ2v8DIjZrdIG/n4=",
+        "iv": "rFRakd9dlrM0DsNC",
+        "signature": "MzZhZmYyZDNlNWQ2ZGI3MDE1MDdjMzE4ZTFjYTUwM2EwODRiZDFmNTkwMDM4ZDQxN2IyOTUwMzQyNDVhMGUzY2RiZWFmZTRhM2YwNTYyNTJiOGViZjQyNmFiNDM2YTA3MzA5MTI2ZThhMjc4NDkxYjVmMTUyZDk3MTkwMmYzOWQxNWQwODk5YWRiYTBjNjcyOTI0OWYxYmU0OTFiNWQ3ZGMxZTZlOTMxNDhlNGQ5MGRkZjIyYzUwMWI4MTZhMGU4OTdiNGI4OGYyYTNjOGE1NDhiNzFhMWY3YmRhZjI4MTIwZTM1M2Y3NzZiZmY1YzA0MzM2ZGI5ODUxMDNkNWRjZmI1ZDFiNjM5OGIyOTMyZDIzNDk3ODI1NTk3OGRlM2QzODk1NmQzZDQ2ZDdlN2E2M2QxYWYxMWQzZmY0ZDE4ZjUxOWIwYWU0M2MyMGZmY2MzYWNlM2Y3MGU0NzAyZGRkNjQyOTkwNDM5MWI0Y2FlNGUwYmNiNmM5N2Q2NTU0MmYzY2NlOGU2MzViNTAxMDNmNjViM2NjMzg3OTMwOWZmZTExYTVlZTM5OTZlMDk2ZjBhZmVjZGI4YWQzNDU2ZDk2Y2Y0NjM2MDI3Mjc2YmZjMGM4OGQ5YWRkMjA2ZmU3ZTo5MzYyMjRlNTcwYjEzYTZkNTg4OGU1YTNlZDY0Y2RlNzQ2ZmFjMDE1MGZmMGY2Zjc4ODk4ZjIyYmE5MTQ5YzVl"
+      },
+      "org_id": "demo_org",
+      "profile": {
+        "name": "Priya Sharma",
+        "email": "employee@demo.civ",
+        "role": "employee"
+      }
+    },
+    {
+      "vouchers": [
+        {
+          "voucher_id": "voucher_4bfa8363-510e-4834-92a7-75c95130ac6d",
+          "amount": 0,
+          "currency": "ZEC",
+          "run_id": "demo_run",
+          "status": "issued",
+          "memo": "Payroll allocation for auditor_karthik",
+          "issued_at": "2025-12-03T11:06:03.332Z"
+        }
+      ],
+      "role": "auditor",
+      "created_at": "2025-12-03T11:06:03.332Z",
+      "updated_at": "2025-12-03T11:06:03.332Z",
+      "employee_id": "19da7b13-171a-4e76-ad45-7b00e84ff307",
+      "username": "auditor_karthik",
+      "username_normalized": "auditor_karthik",
+      "password_hash": "$2a$10$e6z19H6Za/9dhC0NvACX/ujf.rKVQrBK9ex7CsE/cfmMRV2R5.WBO",
+      "employee_tag": "2316b7fd08f2385751681a11f9edd220f55d4356d71854adf367f409511806e2",
+      "credential_nonce": "5d5bffd3bdde6f9b9e1c764b20ac92364a66392dac1f678680a780fdbaaad68b",
+      "zkpass_credential": {
+        "ciphertext": "6A/hSesBNHrSi/EfrCcbKT79+9ihfj91U10Z5FHAqTmCSN6hQ/oeAMqm2aaGM16GLwtFNapmHXc4P/oC5qAMh8Iv9kEkO0DnNbZBKKUZY2fwgQPXu5u0bfOJGGtwlM8mopr/bbSsVG4TkvPBTcR5JPNbOqtewV0hd6G1orgHlOxRhJkPj1BZ9jHpWTvjHPXzWi20CofHCx2EcwI/enE1gKDYXSVGc3WehmoagywIpwDjngcRnU7FlJkSaFxPNll7D/vfmPnvn08xskG0PqmxI58InJfTSiNGJNawZa04wpSb77hotb2hSP+XhMXArDpo",
+        "iv": "tShNvCDRCjvqNwGs",
+        "signature": "ZTgwZmUxNDllYjAxMzQ3YWQyOGJmMTFmYWMyNzFiMjkzZWZkZmJkOGExN2UzZjc1NTM1ZDE5ZTQ1MWMwYTkzOTgyNDhkZWExNDNmYTFlMDBjYWE2ZDlhNjg2MzM1ZTg2MmYwYjQ1MzVhYTY2MWQ3NzM4M2ZmYTAyZTZhMDBjODdjMjJmZjY0MTI0M2I0MGU3MzViNjQxMjhhNTE5NjM2N2YwODEwM2Q3YmI5YmI0NmRmMzg5MTg2YjcwOTRjZjI2YTI5YWZmNmRiNGFjNTQ2ZTEzOTJmM2MxNGRjNDc5MjRmMzViM2FhYjVlYzE1ZDIxNzdhMWI1YTJiODA3OTRlYzUxODQ5OTBmOGY1MDU5ZjYzMWU5NTkzYmUzMWNmNWYzNWEyZGI0MGE4N2M3MGIxZDg0NzMwMjNmN2E3MTM1ODBhMGQ4NWQyNTQ2NzM3NTllODY2YTFhODMyYzA4YTcwMGUzOWUwNzExOWQ0ZWM1OTQ5OTEyNjg1YzRmMzY1OTdiMGZmYmRmOThmOWVmOWY0ZjMxYjI0MWI0M2VhOWIxMjM5ZjA4OWM5N2QzNGEyMzQ2MjRkNmIwNjVhZDM4YzI5NDliZWZiODY4YjViZGExNDhmZjk3ODRjNWMwYWMzYTY4OjVkNWJmZmQzYmRkZTZmOWI5ZTFjNzY0YjIwYWM5MjM2NGE2NjM5MmRhYzFmNjc4NjgwYTc4MGZkYmFhYWQ2OGI="
+      },
+      "org_id": "demo_org",
+      "profile": {
+        "name": "Karthik Rao",
+        "email": "auditor@demo.civ",
+        "role": "auditor"
+      }
+    },
+    {
+      "vouchers": [
+        {
+          "voucher_id": "voucher_20b3965d-7fb9-40e3-b328-24c6040e8c22",
+          "amount": 0,
+          "currency": "ZEC",
+          "run_id": "run_1764781330471",
+          "status": "issued",
+          "memo": "Payroll allocation for iuewdf",
+          "issued_at": "2025-12-03T17:02:10.526Z"
+        }
+      ],
+      "role": "employee",
+      "created_at": "2025-12-03T17:02:10.526Z",
+      "updated_at": "2025-12-03T17:02:10.526Z",
+      "employee_id": "20841728-0aeb-49cb-854a-5ecfa61fb941",
+      "username": "iuewdf",
+      "username_normalized": "iuewdf",
+      "password_hash": "$2a$10$bCcag6CihjBKaxyEClUVG.42HdbTpi0h99Ki4bzmdQrqrFryGeheO",
+      "employee_tag": "12fac006c661686eb3e45e2c3bb5eb91bf2ac5ae28f156025ce14a05790c0132",
+      "credential_nonce": "9e4c0c98ed521d9fed9126ab85cd795399f77bf028d33b48eb917063d1f94e9e",
+      "zkpass_credential": {
+        "ciphertext": "EaFxkEgwL5pVMzjIGq0+XTdzliePYGYEyFoNqvKqkmUOMLP37GesiWNZFpJXKHlKevoICTCFyUyNQ1sJTefMIDqzx1Fa811TiTolWg0zueUvcPhl5pr2evse1oywmDLfZ+D6B7lk+gJ+oIsNiRzJ+zXjWOuyKkh3Q93GD75eSe8+zC211iv4VyR8ST+bOvCKQ30XDGxO/59oCOZeg4yNfLb8m6kgmrNnLDLdC8qYfLfh81swmVpD8Y4nelU47ajVNq3yuSvDixeVWaWhsN5YcDDJ6evjTetg6FnD8wZnjEW48D+Smg==",
+        "iv": "D58BiNzUaw3NIvcl",
+        "signature": "MTFhMTcxOTA0ODMwMmY5YTU1MzMzOGM4MWFhZDNlNWQzNzczOTYyNzhmNjA2NjA0Yzg1YTBkYWFmMmFhOTI2NTBlMzBiM2Y3ZWM2N2FjODk2MzU5MTY5MjU3Mjg3OTRhN2FmYTA4MDkzMDg1Yzk0YzhkNDM1YjA5NGRlN2NjMjAzYWIzYzc1MTVhZjM1ZDUzODkzYTI1NWEwZDMzYjllNTJmNzBmODY1ZTY5YWY2N2FmYjFlZDY4Y2IwOTgzMmRmNjdlMGZhMDdiOTY0ZmEwMjdlYTA4YjBkODkxY2M5ZmIzNWUzNThlYmIyMmE0ODc3NDNkZGM2MGZiZTVlNDllZjNlY2MyZGI1ZDYyYmY4NTcyNDdjNDkzZjliM2FmMDhhNDM3ZDE3MGM2YzRlZmY5ZjY4MDhlNjVlODM4YzhkN2NiNmZjOWJhOTIwOWFiMzY3MmMzMmRkMGJjYTk4N2NiN2UxZjM1YjMwOTk1YTQzZjE4ZTI3N2E1NTM4ZWRhOGQ1MzZhZGYyYjkyYmMzOGIxNzk1NTlhNWExYjBkZTU4NzAzMGM5ZTllYmUzNGRlYjYwZTg1OWMzZjMwNjY3OGM0NWI4ZjAzZjkyOWE6OWU0YzBjOThlZDUyMWQ5ZmVkOTEyNmFiODVjZDc5NTM5OWY3N2JmMDI4ZDMzYjQ4ZWI5MTcwNjNkMWY5NGU5ZQ=="
+      },
+      "org_id": "eskcjn",
+      "profile": {
+        "name": "uoh",
+        "email": "iwu4ebf",
+        "role": "employee"
+      }
+    },
+    {
+      "vouchers": [
+        {
+          "voucher_id": "voucher_bd2dcd1c-3f54-4550-8d67-e2ca23bda354",
+          "amount": 100000,
+          "currency": "ZEC",
+          "run_id": "run_1764782665875",
+          "status": "issued",
+          "memo": "Payroll allocation for rythme",
+          "issued_at": "2025-12-03T17:24:25.931Z"
+        }
+      ],
+      "role": "employee",
+      "created_at": "2025-12-03T17:24:25.931Z",
+      "updated_at": "2025-12-03T17:24:25.931Z",
+      "employee_id": "b03a0abb-2ae4-4be8-9b87-de355508a928",
+      "username": "rythme",
+      "username_normalized": "rythme",
+      "password_hash": "$2a$10$RD68on2HqXvgN7ROeTjSMu0ddSwZTKPtsWumMeT68uxixwWW5bubK",
+      "employee_tag": "271d34706df6350a74aa2e3dfb7539bc2ad0508c31be10f98f922584aae2f29",
+      "credential_nonce": "a0d1c523e2f53bb1d7e8c568d1aaba66834f089cec83c5a2ed7eb153ca49415d",
+      "zkpass_credential": {
+        "ciphertext": "azFGEI4HZAO+FbHCyIefnagpXoQXTDXwlfq7VES6/+HY36s65eGBU1GIUBHR8y++psdOw9Ef4w+Fakmu7EzYSwYweB3ETNi1uEBrSQcYWH6NJ+mWvt9qavH3DYt0nQeWaRd5QlceKvPJXrTiz6zms4nUByZ90ZfglJVqat2hQu2p5397lcJEPX1VaQABJb7yi9eaAkl6o/atEdRaMd9iQKt4Fp6roe+qsLMTbINcpXunRB5CYvXScErWIkMDg2sUXJnfBgUn4Uxp9luTclPlC8spPEFScxOKBpZhaINxnf2RsneqqyY=",
+        "iv": "VoamsnDMNCcMwHhm",
+        "signature": "NmIzMTQ2MTA4ZTA3NjQwM2JlMTViMWMyYzg4NzlmOWRhODI5NWU4NDE3NGMzNWYwOTVmYWJiNTQ0NGJhZmZlMWQ4ZGZhYjNhZTVlMTgxNTM1MTg4NTAxMWQxZjMyZmJlYTZjNzRlYzNkMTFmZTMwZjg1NmE0OWFlZWM0Y2Q4NGIwNjMwNzgxZGM0NGNkOGI1Yjg0MDZiNDkwNzE4NTg3ZThkMjdlOTk2YmVkZjZhNmFmMWY3MGQ4Yjc0OWQwNzk2NjkxNzc5NDI1NzFlMmFmM2M5NWViNGUyY2ZhY2U2YjM4OWQ0MDcyNjdkZDE5N2UwOTQ5NTZhNmFkZGExNDJlZGE5ZTc3ZjdiOTVjMjQ0M2Q3ZDU1NjkwMDAxMjViZWYyOGJkNzlhMDI0OTdhYTNmNmFkMTFkNDVhMzFkZjYyNDBhYjc4MTY5ZWFiYTFlZmFhYjBiMzEzNmM4MzVjYTU3YmE3NDQxZTQyNjJmNWQyNzA0YWQ2MjI0MzAzODM2YjE0NWM5OWRmMDYwNTI3ZTE0YzY5ZjY1YjkzNzI1M2U1MGJjYjI5M2M0MTUyNzMxMzhhMDY5NjYxNjg4MzcxOWRmZDkxYjI3N2FhYWIyNjphMGQxYzUyM2UyZjUzYmIxZDdlOGM1NjhkMWFhYmE2NjgzNGYwODljZWM4M2M1YTJlZDdlYjE1M2NhNDk0MTVk"
+      },
+      "org_id": "org_demo",
+      "profile": {
+        "name": "Rythme ",
+        "email": "rythme@web3spell.com",
+        "role": "employee"
+      }
+    },
+    {
+      "vouchers": [
+        {
+          "voucher_id": "voucher_8845967a-bd6d-475a-97b6-0ecca8d1e439",
+          "amount": 1200,
+          "currency": "ZEC",
+          "run_id": "voucher_issue",
+          "status": "issued",
+          "memo": "Payroll allocation for priya",
+          "issued_at": "2025-12-03T17:56:53.744Z"
+        }
+      ],
+      "role": "Software Engineer",
+      "created_at": "2025-12-03T17:56:53.744Z",
+      "updated_at": "2025-12-03T18:41:10.251Z",
+      "employee_id": "emp_001",
+      "username": "priya",
+      "username_normalized": "priya",
+      "password_hash": "$2a$10$pxuUZcgQ3T8gug3fEtd.4el4c.DiN.yyT6d9d.isXhUksPSxehifm",
+      "employee_tag": "14acdf535e1e2ac149ebd9a7b7086fea6b839de7d28bc995562a651284198957",
+      "credential_nonce": "74b4ff96a554d473156662ca9745542cbf8a0b0905197ce05b442b05923112cd",
+      "zkpass_credential": {
+        "ciphertext": "xFpOl4itnCRknGvR3zACsN7tJT7K+/FTzVCo3IKVIrdm35tOSxOylBOrDi+UomyGawFGeyWtVBuwO4iF7hKINzz8sw502eXfr2iHmhDdkAjE82B4gh8xx0/sTwkczzFqwa8gpFiJi0zv7FQzKPgBiN/3tt/R0h0ftlc39S+Tt64Qag+3/LVV7s6nTkuZPVjX3es6wv2YRNOMSgRc0h+xZUpfEKNxBLOtipQMPc1HgT3wVEN547wYZfO3lUp+StKAk97itoV2B7w=",
+        "iv": "JdLuD9p1fzVgS5YR",
+        "signature": "YzQ1YTRlOTc4OGFkOWMyNDY0OWM2YmQxZGYzMDAyYjBkZWVkMjUzZWNhZmJmMTUzY2Q1MGE4ZGM4Mjk1MjJiNzY2ZGY5YjRlNGIxM2IyOTQxM2FiMGUyZjk0YTI2Yzg2NmIwMTQ2N2IyNWFkNTQxYmIwM2I4ODg1ZWUxMjg4MzczY2ZjYjMwZTc0ZDllNWRmYWY2ODg3OWExMGRkOTAwOGM0ZjM2MDc4ODIxZjMxYzc0ZmVjNGYwOTFjY2YzMTZhYzFhZjIwYTQ1ODg5OGI0Y2VmZWM1NDMzMjhmODAxODhkZmY3YjZkZmQxZDIxZDFmYjY1NzM3ZjUyZjkzYjdhZTEwNmEwZmI3ZmNiNTU1ZWVjZWE3NGU0Yjk5M2Q1OGQ3ZGRlYjNhYzJmZDk4NDRkMzhjNGEwNDVjZDIxZmIxNjU0YTVmMTBhMzcxMDRiM2FkOGE5NDBjM2RjZDQ3ODEzZGYwNTQ0Mzc5ZTNiYzE4NjVmM2I3OTU0YTdlNGFkMjgwOTNkZWUyYjY4NTc2MDdiYzo3NGI0ZmY5NmE1NTRkNDczMTU2NjYyY2E5NzQ1NTQyY2JmOGEwYjA5MDUxOTdjZTA1YjQ0MmIwNTkyMzExMmNk"
+      },
+      "org_id": "DemoOrg",
+      "credential_vouchers": [
+        {
+          "token_hash": "bbb4b193052610620311860a4e0f801acc8cffc000d1df697108f7956bc7750f",
+          "created_at": "2025-12-03T17:56:53.748Z",
+          "expires_at": "2025-12-10T17:56:53.748Z",
+          "status": "consumed",
+          "downloaded_at": "2025-12-03T17:57:00.711Z"
+        },
+        {
+          "token_hash": "25f13dc816b0cfc6ae4af9ffaf50bbfba77144e63bf5430eee76ee8a12083b93",
+          "created_at": "2025-12-03T18:41:03.622Z",
+          "expires_at": "2025-12-10T18:41:03.622Z",
+          "status": "consumed",
+          "downloaded_at": "2025-12-03T18:41:10.251Z"
+        }
+      ],
+      "profile": {
+        "name": "Priya Sharma",
+        "email": "priya@demo.co",
+        "role": "Software Engineer"
+      }
+    },
+    {
+      "vouchers": [
+        {
+          "voucher_id": "voucher_b8a748fa-d3d0-4824-9ec1-74a556e8bfbc",
+          "amount": 1000,
+          "currency": "ZEC",
+          "run_id": "run_1764785305423",
+          "status": "issued",
+          "memo": "Payroll allocation for rythmern",
+          "issued_at": "2025-12-03T18:08:25.488Z"
+        }
+      ],
+      "role": "employee",
+      "created_at": "2025-12-03T18:08:25.488Z",
+      "updated_at": "2025-12-03T18:08:25.488Z",
+      "employee_id": "fd071791-f7ec-4564-8120-7c659644a30a",
+      "username": "rythmern",
+      "username_normalized": "rythmern",
+      "password_hash": "$2a$10$lzYPGcyBtcBoKYP1Z.V/NuO5GgAAVSRrNnNGlO1g3PwzvNj2/ba1e",
+      "employee_tag": "18ac0d840e04f3231e013a6d95950fa9900923bbc8b044d39055c174bfb96920",
+      "credential_nonce": "139fddde6c60f70c4ce94dbf73205fc3fd313878fbe3e47251b8593aed2b893f",
+      "zkpass_credential": {
+        "ciphertext": "Epf3wN4KavZPvenoCCZzXg6wpniycmP4T4dBzhNpRGqigH4XhN4qz5jubBFWWjSN96wNOV+sa5RSEmFkyy1Jy7kzViH2uB+g2sNaqTnu8TiEefFA9CciR8sl3OAekMSXB6H/fsmg6Xw5h4vdvZdKH5agYkXnRg6tBR1+FR1WZ7Q21Ohwb/oERSwclfBIfmEsPHuwFCskjyKEWS6leHBN+BMvM33tZgY7RHi82qFU+gHLWyamGBicomG3AUrItb0Cdl5P1K4qoZ7Gj/UoGc+6fwxRpaCN+4Vv9/L7p67f72S2GusJVylXc5w=",
+        "iv": "DnAFuKRT4h2SJkQL",
+        "signature": "MTI5N2Y3YzBkZTBhNmFmNjRmYmRlOWU4MDgyNjczNWUwZWIwYTY3OGIyNzI2M2Y4NGY4NzQxY2UxMzY5NDQ2YWEyODA3ZTE3ODRkZTJhY2Y5OGVlNmMxMTU2NWEzNDhkZjdhYzBkMzk1ZmFjNmI5NDUyMTI2MTY0Y2IyZDQ5Y2JiOTMzNTYyMWY2YjgxZmEwZGFjMzVhYTkzOWVlZjEzODg0NzlmMTQwZjQyNzIyNDdjYjI1ZGNlMDFlOTBjNDk3MDdhMWZmN2VjOWEwZTk3YzM5ODc4YmRkYmQ5NzRhMWY5NmEwNjI0NWU3NDYwZWFkMDUxZDdlMTUxZDU2NjdiNDM2ZDRlODcwNmZmYTA0NDUyYzFjOTVmMDQ4N2U2MTJjM2M3YmIwMTQyYjI0OGYyMjg0NTkyZWE1Nzg3MDRkZjgxMzJmMzM3ZGVkNjYwNjNiNDQ3OGJjZGFhMTU0ZmEwMWNiNWIyNmE2MTgxODljYTI2MWI3MDE0YWM4YjViZDAyNzY1ZTRmZDRhZTJhYTE5ZWM2OGZmNTI4MTljZmJhN2YwYzUxYTVhMDhkZmI4NTZmZjdmMmZiYTdhZWRmZWY2NGI2MWFlYjA5NTcyOTU3NzM5YzoxMzlmZGRkZTZjNjBmNzBjNGNlOTRkYmY3MzIwNWZjM2ZkMzEzODc4ZmJlM2U0NzI1MWI4NTkzYWVkMmI4OTNm"
+      },
+      "org_id": "robofund",
+      "credential_vouchers": [],
+      "profile": {
+        "name": "Rythme",
+        "email": "rythme@chainpot.com",
+        "role": "employee"
+      }
+    }
+  ],
+  "auditors": []
+}
