@@ -6,8 +6,8 @@ export interface CredentialFile {
   ciphertext: string
   iv: string
   signature: string
-}
-
+  }
+  
 export function deriveEmployeeTag(nonceHex: string) {
   return poseidon1([BigInt("0x" + nonceHex)]).toString(16)
 }

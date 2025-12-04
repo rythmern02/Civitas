@@ -13,6 +13,9 @@ export type JsonRpcRequest = {
   params?: unknown[] | Record<string, unknown>;
 };
 
+// Re-export types from @bitgo/utxo-lib module for convenience
+export type UtxoLib = typeof import('@bitgo/utxo-lib');
+
 declare module "snarkjs";
 
 export {};

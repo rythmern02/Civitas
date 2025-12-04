@@ -8,6 +8,7 @@ const {
   NEAR_CONTRACT_ID,
 } = process.env;
 
+const NEAR_PRIVATE_KEY_STRING = NEAR_PRIVATE_KEY as any;
 if (!NEAR_ACCOUNT_ID || !NEAR_PRIVATE_KEY || !NEAR_CONTRACT_ID) {
   console.warn(
     "[NEAR] Missing NEAR_ACCOUNT_ID/NEAR_PRIVATE_KEY/NEAR_CONTRACT_ID env vars. Commit API will be disabled."
@@ -24,7 +25,7 @@ async function initAccount() {
   await keyStore.setKey(
     NEAR_NETWORK_ID,
     NEAR_ACCOUNT_ID,
-    KeyPair.fromString(NEAR_PRIVATE_KEY)
+    KeyPair.fromString(NEAR_PRIVATE_KEY_STRING)
   );
   const near = await connect({
     networkId: NEAR_NETWORK_ID,
@@ -75,7 +76,7 @@ export async function commitPayrollOnNear({
     contractId: NEAR_CONTRACT_ID,
     methodName: "commit_payroll",
     args,
-    gas: "150000000000000",
+    gas: BigInt("150000000000000"),
   });
 
   return {

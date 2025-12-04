@@ -23,7 +23,7 @@ export async function verifySession(token: string): Promise<SessionPayload | nul
   try {
     const { jwtVerify } = await import("jose");
     const { payload } = await jwtVerify(token, secretKey);
-    return payload as SessionPayload;
+    return payload as unknown as SessionPayload;
   } catch (err) {
     return null;
   }

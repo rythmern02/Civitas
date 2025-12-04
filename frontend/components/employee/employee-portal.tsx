@@ -191,7 +191,7 @@ export function EmployeePortal({ employeeId }: { employeeId: string }) {
                 credentialStatus === "verified"
                   ? "default"
                   : credentialStatus === "error"
-                    ? "destructive"
+                    ? "outline"
                     : "secondary"
               }
             >

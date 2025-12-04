@@ -11,14 +11,14 @@ function truncateAccount(accountId: string) {
 }
 
 export function NearWalletButton() {
-  const { selector, modal } = useWalletSelector()
+  const { selector, modal }:any = useWalletSelector()
   const [accountId, setAccountId] = useState<string | null>(null)
   const [isDisconnecting, setIsDisconnecting] = useState(false)
 
   useEffect(() => {
     if (!selector) return
-    const subscription = selector.store.observable.subscribe((state) => {
-      const active = state.accounts.find((account) => account.active)
+    const subscription = selector.store.observable.subscribe((state:any) => {
+      const active = state.accounts.find((account:any) => account.active)
       setAccountId(active?.accountId ?? null)
     })
     return () => subscription.unsubscribe()

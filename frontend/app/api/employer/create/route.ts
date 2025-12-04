@@ -44,9 +44,32 @@ export async function POST(req: NextRequest) {
 
   // spawn orchestrator CLI to submit the job (local dev). This will call orchestrator/index.js submit <manifestPath>
   try {
-    const orchestratorBin = path.resolve(process.cwd(), "orchestrator", "index.js");
-    // spawn child process
-    const child = spawn("node", [orchestratorBin, "submit", manifestPath], { env: process.env });
+    // Resolve orchestrator path relative to project root (works in both dev and build)
+    // Try multiple possible locations
+    const candidates = [
+      path.resolve(process.cwd(), "..", "orchestrator", "index.js"),
+      path.resolve(process.cwd(), "orchestrator", "index.js"),
+      path.resolve(__dirname, "..", "..", "..", "..", "orchestrator", "index.js"),
+    ];
+    
+const projectRoot = process.cwd();
+
+// 2. Construct the path to your script. 
+// ADJUST THE FOLDER STRUCTURE BELOW TO MATCH YOUR ACTUAL FILE SYSTEM
+let orchestratorBin = path.join(projectRoot, 'orchestrator', 'index.js');
+
+    // for (const candidate of candidates) {
+    //   if (fs.existsSync(candidate)) {
+    //     orchestratorBin = candidate;
+    //     break;
+    //   }
+    // }
+    
+    if (!orchestratorBin) {
+      return NextResponse.json({ error: "orchestrator not found" }, { status: 500 });
+    }
+
+    const child = spawn("node", ["../orchestrator/index.js", "submit", manifestPath], { env: process.env });
 
     let stdout = "";
     let stderr = "";

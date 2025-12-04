@@ -25,14 +25,14 @@ export async function exportAesKeyRaw(key: CryptoKey): Promise<Uint8Array> {
 }
 
 export async function importAesKeyRaw(raw: Uint8Array) {
-  return crypto.subtle.importKey("raw", raw.buffer, "AES-GCM", true, ["encrypt", "decrypt"]);
+  return crypto.subtle.importKey("raw", raw.buffer as ArrayBuffer, "AES-GCM", true, ["encrypt", "decrypt"]);
 }
 
 export async function aesGcmEncrypt(key: CryptoKey, plaintext: string, iv?: Uint8Array) {
   const data = enc.encode(plaintext);
   const usedIv = iv ?? crypto.getRandomValues(new Uint8Array(12));
   const cipher = await crypto.subtle.encrypt(
-    { name: "AES-GCM", iv: usedIv },
+    { name: "AES-GCM", iv: usedIv as any },
     key,
     data
   );
@@ -40,7 +40,7 @@ export async function aesGcmEncrypt(key: CryptoKey, plaintext: string, iv?: Uint
 }
 
 export async function aesGcmDecrypt(key: CryptoKey, ciphertext: Uint8Array, iv: Uint8Array) {
-  const plain = await crypto.subtle.decrypt({ name: "AES-GCM", iv }, key, ciphertext);
+  const plain = await crypto.subtle.decrypt({ name: "AES-GCM", iv: iv as any }, key, ciphertext as any);
   return dec.decode(plain);
 }
 

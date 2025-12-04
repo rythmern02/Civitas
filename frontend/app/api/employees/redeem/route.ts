@@ -18,7 +18,7 @@ export async function POST(req: NextRequest) {
   if (!token) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
-  const session = await verifySession(token);
+  const session: any= await verifySession(token);
   if (!session) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }

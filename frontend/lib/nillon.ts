@@ -41,9 +41,18 @@ export async function initializeNillionClient() {
   const keypair = Keypair.from(PRIVATE_KEY);
   
   // Initialize the client (connects to Testnet by default)
-  const client = await SecretVaultBuilderClient.from({
+  const client:any = await SecretVaultBuilderClient.from({
     keypair,
     // Default config uses Nillion Testnet/Sandbox urls
+    urls: {
+      chain: 'http://rpc.testnet.nilchain-rpc-proxy.nilogy.xyz',
+      auth: 'https://nilauth.sandbox.app-cluster.sandbox.nilogy.xyz',
+      dbs: [
+        'https://nildb-stg-n1.nillion.network',
+        'https://nildb-stg-n2.nillion.network',
+        'https://nildb-stg-n3.nillion.network',
+      ],
+    },
   });
 
   return client;
@@ -53,17 +62,18 @@ export async function createPayrollCollection(client: SecretVaultBuilderClient, 
   // 1. Create a new collection for this specific payroll run
   const collectionName = `zkPayroll_Run_${runId}`;
   
-  const newCollection = await client.createCollection({
+  const newCollection:any = await client.createCollection({
+    _id: collectionName,
     name: collectionName,
     schema: PAYROLL_SCHEMA,
     type: "owned", // Builder-owned, but we will grant access to NilCC later
   });
 
-  return newCollection.id; // The Collection ID
+  return newCollection._id; // The Collection ID
 }
 
 export async function uploadEncryptedRow(
-  client: SecretVaultBuilderClient,
+  client: any,
   collectionId: string,
   payload: {
     keyBase64: string;
@@ -75,7 +85,7 @@ export async function uploadEncryptedRow(
 ) {
   // Write to the vault
   // Nillion automatically splits the fields marked with %share (decryption_key)
-  const result = await client.writeToCollection({
+  const result:any = await client.writeToCollection({
     collectionId,
     data: [
       {

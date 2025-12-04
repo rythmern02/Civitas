@@ -10,7 +10,7 @@ import Link from "next/link"
 
 export function EmployeeDetail({ employeeId }: { employeeId: string }) {
   const { employees } = useMockStore()
-  const employee = employees.find((e) => e.id === employeeId)
+  const employee:any = employees.find((e) => e.id === employeeId)
   const [voucherStatus, setVoucherStatus] = useState<"idle" | "loading" | "success" | "error">("idle")
   const [voucherLink, setVoucherLink] = useState<string | null>(null)
   const [voucherError, setVoucherError] = useState("")
@@ -184,7 +184,7 @@ export function EmployeeDetail({ employeeId }: { employeeId: string }) {
                   )}
                 </div>
               </div>
-            </div>
+              </div>
             </div>
           </div>
 

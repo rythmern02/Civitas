@@ -222,7 +222,7 @@ export default function RegisterPage() {
             <div className="overflow-hidden rounded-xl border border-border">
               <div className="bg-muted/40 px-4 py-2 text-sm font-medium">
                 {roster.length} employees queued for provisioning
-              </div>
+            </div>
               <Textarea
                 readOnly
                 className="h-32 rounded-none border-0 bg-background font-mono text-xs"

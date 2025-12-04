@@ -114,7 +114,7 @@ export function LoginForm() {
       } else if (method === "tag") {
         const refreshed = await submitZkLogin()
         if (refreshed) navigateForRole(refreshed.role as UserRole, refreshed.id)
-      } else {
+    } else {
         const refreshed = await submitCredentialLogin()
         if (refreshed) navigateForRole(refreshed.role as UserRole, refreshed.id)
       }
@@ -148,34 +148,34 @@ export function LoginForm() {
             {opt === "credential" && "Credential"}
           </button>
         ))}
-      </div>
+        </div>
 
       <p className="text-sm text-muted-foreground">{methodDescription[method]}</p>
 
       <form onSubmit={handleSubmit} className="space-y-4">
         {method === "password" && (
           <>
-            <div className="space-y-2">
+        <div className="space-y-2">
               <Label htmlFor="username">Username</Label>
-              <Input
+          <Input
                 id="username"
                 placeholder="emp_priya"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                required
-              />
-            </div>
-            <div className="space-y-2">
-              <Label htmlFor="password">Password</Label>
-              <Input
-                id="password"
-                type="password"
-                placeholder="••••••••"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                required
-              />
-            </div>
+            required
+          />
+        </div>
+        <div className="space-y-2">
+          <Label htmlFor="password">Password</Label>
+          <Input
+            id="password"
+            type="password"
+            placeholder="••••••••"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+          />
+        </div>
           </>
         )}
 
@@ -205,7 +205,7 @@ export function LoginForm() {
         )}
 
         {method === "credential" && (
-          <div className="space-y-2">
+        <div className="space-y-2">
             <Label htmlFor="credential_file">zkPassport Credential (.json)</Label>
             <Input
               id="credential_file"

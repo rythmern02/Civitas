@@ -7,12 +7,19 @@ async function testBootnode() {
     const userKeyHex = process.env.NILLION_USER_KEY!; // Your wallet private key
     if (!userKeyHex) throw new Error('Set NILLION_USER_KEY in .env');
 
-    const keypair = Keypair.fromSecretKey(userKeyHex);
+    const keypair:any = Keypair.from(userKeyHex);
 
-    const client = await SecretVaultBuilderClient.create({
-      clusterId: process.env.NEXT_PUBLIC_NILLION_CLUSTER_ID || 'testnet', // e.g., 'testnet'
-      bootnodes: ['wss://testnet-bootnode.nillion.network'], // Your URL
+    const client:any = await SecretVaultBuilderClient.from({
       keypair,
+      urls: {
+        chain: 'http://rpc.testnet.nilchain-rpc-proxy.nilogy.xyz',
+        auth: 'https://nilauth.sandbox.app-cluster.sandbox.nilogy.xyz',
+        dbs: [
+          'https://nildb-stg-n1.nillion.network',
+          'https://nildb-stg-n2.nillion.network',
+          'https://nildb-stg-n3.nillion.network',
+        ],
+      },
     });
 
     console.log('✅ Bootnode LIVE: Client initialized successfully!');

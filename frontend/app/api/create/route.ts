@@ -18,7 +18,7 @@ export async function POST(request: Request) {
     }
 
     // 1. Initialize Builder Client
-    const builder = await SecretVaultBuilderClient.from({
+    const builder:any = await SecretVaultBuilderClient.from({
       keypair: Keypair.from(NILLION_API_KEY),
       urls: {
         chain: 'http://rpc.testnet.nilchain-rpc-proxy.nilogy.xyz',
